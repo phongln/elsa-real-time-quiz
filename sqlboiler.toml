@@ -1,0 +1,15 @@
+output   = "internal/models"
+wipe     = true
+no-tests = true
+add-enum-types = true
+no-hooks = true
+no-context = false
+
+[mysql]
+  dbname  = "quizdb"
+  host    = "localhost"
+  port    = 3306
+  user    = "quizuser"
+  pass    = "quizpassword"
+  sslmode = "false"
+  tinyint_as_int = true

@@ -1,0 +1,6 @@
+/vendor
+/.vscode
+/.air.toml
+/.env
+/sys.py
+/.DS_Store
