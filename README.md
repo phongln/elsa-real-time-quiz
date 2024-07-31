@@ -6,7 +6,7 @@ Welcome to the Real-Time Vocabulary Quiz Application! This project is designed t
 
 ## Requirements
 
-[Requirements](requirements.md)
+[Requirements](Requirements.md)
 
 ## Features
 
