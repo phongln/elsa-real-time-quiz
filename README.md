@@ -62,13 +62,6 @@ Welcome to the Real-Time Vocabulary Quiz Application! This project is designed t
 
 ### Running the Application
 
-   **Build and run the Go application**:
-
-```sh
-go build -o main ./cmd/main.go
-./main
-```
-
 1. **Access the application**:
 
 - The WebSocket server will be available at ws://localhost:8080/ws.
