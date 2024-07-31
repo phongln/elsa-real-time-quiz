@@ -4,6 +4,10 @@
 
 Welcome to the Real-Time Vocabulary Quiz Application! This project is designed to provide a real-time quiz feature for an English learning application. Users can answer questions in real-time, compete with others, and see their scores updated live on a leaderboard.
 
+## Requirements
+
+[Requirements](requirements.md)
+
 ## Features
 
 - **User Participation**: Users can join a quiz session using a unique quiz ID.
@@ -40,7 +44,7 @@ Welcome to the Real-Time Vocabulary Quiz Application! This project is designed t
 1. **Clone the repository**:
 
    ```sh
-   git clone https://github.com/yourusername/real-time-quiz.git
+   git clone https://github.com/phongln/elsa-real-time-quiz.git
    cd real-time-quiz
    ```
 
@@ -71,11 +75,11 @@ go build -o main ./cmd/main.go
 - Metrics can be accessed at <http://localhost:8080/metrics>.
 
 ### Usage
+
 ```
 - After `docker-compose up -d`, please wait for awhile before starting due to the Kafka upstream and election
 - Join connections via ws://localhost:8080/ws
 ```
-
 
 1. **Joining Quiz**:
 
